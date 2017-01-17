@@ -1,2 +1,20 @@
 {
+  "name": "npm-postinstall",
+  "description": "Package with benign post install script",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "echo \"----------------------------------\nPost Install Script worked!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gangstead/npm-postinstall.git"
+  },
+  "author": "Gangstead <steven@gangstead.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gangstead/npm-postinstall/issues"
+  },
+  "homepage": "https://github.com/gangstead/npm-postinstall#readme"
 }
